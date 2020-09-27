@@ -1,0 +1,16 @@
+{
+  "name": "search_dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunocesarr/desafion-1.2_SearchDev.git",
+  "author": "brunocesarr <brunoc.15@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn live-server ./src",
+    "server:start": "yarn json-server --watch ./src/database/devs.json --port 3001"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.1",
+    "live-server": "^1.2.1"
+  }
+}
